@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EF37B2BA-E44D-43EC-8A10-D9345A808B65}</ProjectGuid>
+    <RootNamespace>Group_theory</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ContainerAbelianGroup.h" />
+    <ClInclude Include="ContainerGroup.h" />
+    <ClInclude Include="CyclicSubGroup.h" />
+    <ClInclude Include="CyclicSubGroupIzomorphizm.h" />
+    <ClInclude Include="FCSG_FGAbelianGroup.h" />
+    <ClInclude Include="FG_AbelianGroup.h" />
+    <ClInclude Include="FG_AbelianGroupCSG.h" />
+    <ClInclude Include="FiniteCyclicSubGroup.h" />
+    <ClInclude Include="FiniteSubGroup.h" />
+    <ClInclude Include="FM_Two_Groups.h" />
+    <ClInclude Include="GroupElement.h" />
+    <ClInclude Include="InOut_put.h" />
+    <ClInclude Include="Mask.h" />
+    <ClInclude Include="SubGroup.h" />
+    <ClInclude Include="SubGroupIzomorphizm.h" />
+    <ClInclude Include="Symbol.h" />
+    <ClInclude Include="ID.h" />
+    <ClInclude Include="TexString.h" />
+    <ClInclude Include="TexString_Exception.h" />
+    <ClInclude Include="Word.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ContainerAbelianGroup.cpp" />
+    <ClCompile Include="ContainerGroup.cpp" />
+    <ClCompile Include="CyclicSubGroup.cpp" />
+    <ClCompile Include="CyclicSubGroupIzomorphizm.cpp" />
+    <ClCompile Include="FCSG_FGAbelianGroup.cpp" />
+    <ClCompile Include="FG_AbelianGroup.cpp" />
+    <ClCompile Include="FG_AbelianGroupCSG.cpp" />
+    <ClCompile Include="FiniteCyclicSubGroup.cpp" />
+    <ClCompile Include="FiniteSubGroup.cpp" />
+    <ClCompile Include="FM_Two_Groups.cpp" />
+    <ClCompile Include="GroupElement.cpp" />
+    <ClCompile Include="InOut_put.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mask.cpp" />
+    <ClCompile Include="SubGroup.cpp" />
+    <ClCompile Include="SubGroupIzomorphizm.cpp" />
+    <ClCompile Include="Symbol.cpp" />
+    <ClCompile Include="ID.cpp" />
+    <ClCompile Include="TexString.cpp" />
+    <ClCompile Include="TexString_Exception.cpp" />
+    <ClCompile Include="Word.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

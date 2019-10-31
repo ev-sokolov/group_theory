@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ContainerAbelianGroup" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAEAAIAACAESAAAAAgUAAAABAAAAAAAIAAA=</HashCode>
+      <FileName>ContainerAbelianGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ContainerFreeProduct" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAgAAggQCAgIAAgIAAAAAAAAUAAACBAAAgCAAAAAE=</HashCode>
+      <FileName>ContainerFreeProduct.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ContainerGroup" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAIAAAAAAAAAEAAWAAAABAAAAAEAAAAA=</HashCode>
+      <FileName>ContainerGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FP_Exception" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>FP_Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mask" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAACACAAAAAA=</HashCode>
+      <FileName>Mask.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Symbol" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAQCCAA=</HashCode>
+      <FileName>Symbol.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ID" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAIAAAgAAAAADAAwAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ID.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TexString" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAIAAAAGAARAAAAAIAAAAAAgAAAgAAAAA=</HashCode>
+      <FileName>TexString.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TexString_Exception" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAFAAAAAAAAAAAAAAAAAAAgAAAAAAAAAEgAAA=</HashCode>
+      <FileName>TexString_Exception.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Word" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAABAAAAAAAAAAAQAAQAAAAAAAAAJgAAACAAA=</HashCode>
+      <FileName>Word.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ElementRecord" Collapsed="true">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>TexString.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="Bitset" Collapsed="true">
+    <Position X="8" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ID.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SymbolType" Collapsed="true">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TexString.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BufferTex" Collapsed="true">
+    <Position X="9.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TexString.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ListOfSymbols" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Word.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="FP_ExceptionCode" Collapsed="true">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA=</HashCode>
+      <FileName>FP_Exception.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TS_ExceptionCode" Collapsed="true">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAQAAgAAAAAAAAAYABAAAMARAAAAAAA=</HashCode>
+      <FileName>TexString_Exception.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

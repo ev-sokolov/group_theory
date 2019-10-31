@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SubGroup" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAEA=</HashCode>
+      <FileName>SubGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubGroupIzomorphizm" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAGAQAAEAAAAgQAAAAAAAAAAAA=</HashCode>
+      <FileName>SubGroupIzomorphizm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiniteSubGroup" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>FiniteSubGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CyclicSubGroup" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAoAAAAAAAAAgAAAAAAAAAAwAAAAAAAQAAAAA=</HashCode>
+      <FileName>CyclicSubGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CyclicSubGroupIzomorphizm" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAAgAA=</HashCode>
+      <FileName>CyclicSubGroupIzomorphizm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FCSG_FGAbelianGroup" Collapsed="true" HideInheritanceLine="true">
+    <Position X="0.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>FCSG_FGAbelianGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FG_AbelianGroupCSG" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAEAA=</HashCode>
+      <FileName>FG_AbelianGroupCSG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FG_AbelianGroup" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAQACgAAABIAAAAEAAAAAAAUAAAABAAAAAAAIAAA=</HashCode>
+      <FileName>FG_AbelianGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ContainerGroup" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAIAAAAAAAAAEAAWAAAABAAAAAEAAAAA=</HashCode>
+      <FileName>ContainerGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ContainerAbelianGroup" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAEAAIAACAESAAAAAgUAAAABAAAAAAAIAAA=</HashCode>
+      <FileName>ContainerAbelianGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

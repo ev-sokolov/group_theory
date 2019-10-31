@@ -1,0 +1,49 @@
+Введенные слова: 
+a_{1}^{3}a_{2}^{4}a_{7}^{2}a_{9}a_{10}^{-1}
+b_{1}^{11}
+Слово как элемент aбелевой группы: 
+a_{1}^{3}a_{2}^{4}a_{7}^{2}a_{9}a_{10}^{-1}
+b_{1}^{11}
+Слово как элемент сомножителя свободного произведения: 
+a = a_{1,1}^{3}a_{2,1}^{4}a_{7,1}^{2}a_{9,1}a_{10,1}^{-1}
+b = b_{1,2}^{11}
+
+ab = a_{1,1}^{3}a_{2,1}^{4}a_{7,1}^{2}a_{9,1}a_{10,1}^{-1}b_{1,2}^{11}
+ba = b_{1,2}^{11}a_{1,1}^{3}a_{2,1}^{4}a_{7,1}^{2}a_{9,1}a_{10,1}^{-1}
+
+merge_ab = a_{1,1}b_{1,2}a_{1,1}b_{1,2}a_{1,1}b_{1,2}a_{2,1}b_{1,2}a_{2,1}b_{1,2}a_{2,1}b_{1,2}a_{2,1}b_{1,2}a_{7,1}b_{1,2}a_{7,1}b_{1,2}a_{9,1}b_{1,2}a_{10,1}^{-1}b_{1,2}
+merge_ba = b_{1,2}a_{1,1}b_{1,2}a_{1,1}b_{1,2}a_{1,1}b_{1,2}a_{2,1}b_{1,2}a_{2,1}b_{1,2}a_{2,1}b_{1,2}a_{2,1}b_{1,2}a_{7,1}b_{1,2}a_{7,1}b_{1,2}a_{9,1}b_{1,2}a_{10,1}^{-1}
+
+Тестирование алгоритмов решения проблем тождества и сопряженности двух слов: 
+Равенство:
+WordsAreEqual(a, a) = true
+WordsAreEqual(b, b) = true
+WordsAreEqual(a, b) = false
+WordsAreEqual(b, a) = false
+
+WordsAreEqual(ab, ab) = true
+WordsAreEqual(ba, ba) = true
+WordsAreEqual(ab, ba) = false
+WordsAreEqual(ba, ab) = false
+
+WordsAreEqual(merge_ab, merge_ab) = true
+WordsAreEqual(merge_ba, merge_ba) = true
+WordsAreEqual(merge_ab, merge_ba) = false
+WordsAreEqual(merge_ba, merge_ab) = false
+
+Сопряженность:
+WordsAreConjugate(a, a) = true
+WordsAreConjugate(b, b) = true
+WordsAreConjugate(a, b) = false
+WordsAreConjugate(b, a) = false
+
+WordsAreConjugate(ab, ab) = true
+WordsAreConjugate(ba, ba) = true
+WordsAreConjugate(ab, ba) = true
+WordsAreConjugate(ba, ab) = true
+
+WordsAreConjugate(merge_ab, merge_ab) = true
+WordsAreConjugate(merge_ba, merge_ba) = true
+WordsAreConjugate(merge_ab, merge_ba) = true
+WordsAreConjugate(merge_ba, merge_ab) = true
+

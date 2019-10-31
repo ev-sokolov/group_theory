@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FiniteCyclicSubGroup" Collapsed="true">
+    <Position X="1" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>FiniteCyclicSubGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FiniteSubGroup" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>FiniteSubGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CyclicSubGroup" Collapsed="true">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAoAAAAAAAAAgAAAAAAAAAAwAAAAAAAQAAAAA=</HashCode>
+      <FileName>CyclicSubGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FCSG_FGAbelianGroup" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>FCSG_FGAbelianGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubGroup" Collapsed="true">
+    <Position X="7.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAEA=</HashCode>
+      <FileName>SubGroup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Typedef Name="ElementDegree" Collapsed="true">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CyclicSubGroup.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
