@@ -4,11 +4,11 @@
 #include "CyclicSubGroup.h"
 #include "GroupElement.h"
 
-class FiniteCyclicSubGroup : public FiniteSubGroup, public CyclicSubGroup
+class FiniteCyclicSubGroup : public FiniteSubGroup, virtual public CyclicSubGroup
 {
 public:
 	FiniteCyclicSubGroup(const GroupElement& g);
-	GroupElement FirstElem();
-	bool NextElem(GroupElement &u);
+	GroupElement FirstElem() const;
+	bool NextElem(GroupElement &u) const;
 };
 #endif //FINITECYCLICSUBGROUP

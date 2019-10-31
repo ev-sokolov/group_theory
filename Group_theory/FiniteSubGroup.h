@@ -3,7 +3,7 @@
 #include "SubGroup.h"
 #include "GroupElement.h"
 
-class FiniteSubGroup : public SubGroup
+class FiniteSubGroup : virtual public SubGroup
 {
 public:
 	FiniteSubGroup(const ContainerGroup*);

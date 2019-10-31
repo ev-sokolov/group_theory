@@ -7,6 +7,7 @@
 #include "Word.h"
 #include "FG_AbelianGroup.h"
 #include "FG_AbelianGroupCSG.h"
+#include "FCSG_FGAbelianGroup.h"
 #include "ContainerAbelianGroup.h"
 #include "CyclicSubGroupIzomorphizm.h"
 #include "FM_Two_Groups.h"
@@ -106,7 +107,7 @@ int main()
 		Word a1_word = ConvertingTexToWord(a1_Tex_input);
 		GroupElement a1_ge = GroupElement(a1_word, &gr1);
 
-		FG_AbelianGroupCSG sgp1(a1_ge);
+		FCSG_FGAbelianGroup sgp1(a1_ge);
 
 		string a2_input = "b_{1}^{4}b_{3}^{4}b_{2}^{2}b_{3}b_{1}^{-3}";
 		cout << a2_input << endl;
@@ -114,7 +115,7 @@ int main()
 		Word a2_word = ConvertingTexToWord(a2_Tex_input);
 		GroupElement a2_ge = GroupElement(a2_word, &gr2);
 
-		FG_AbelianGroupCSG sgp2(a2_ge);
+		FCSG_FGAbelianGroup sgp2(a2_ge);
 
 		cout << "gr.WordIsEqualTo1(a1_ge): " << gr1.WordIsEqualTo1(a1_ge) << endl;
 		cout << "gr.WordIsEqualTo1(a2_ge): " << gr2.WordIsEqualTo1(a2_ge) << endl;

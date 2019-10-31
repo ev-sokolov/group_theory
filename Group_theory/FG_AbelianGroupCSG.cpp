@@ -1,5 +1,5 @@
 #include "FG_AbelianGroupCSG.h" 
-FG_AbelianGroupCSG::FG_AbelianGroupCSG(const GroupElement &g) : CyclicSubGroup(g)
+FG_AbelianGroupCSG::FG_AbelianGroupCSG(const GroupElement &g) : SubGroup(g.GetGroup()), CyclicSubGroup(g)
 {
 	if (dynamic_cast<const FG_AbelianGroup*>(g.GetGroup()) == 0) throw GP_Exception(); 
 }//если не имеет подгруппы, то исключение

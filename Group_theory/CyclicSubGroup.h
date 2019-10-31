@@ -6,7 +6,7 @@ typedef int ElementDegree;
 const ElementDegree UndefinedDegree = 1 << (sizeof(ElementDegree) * 8 - 1); 
 // для отображения неопределенной степени
 
-class CyclicSubGroup : public SubGroup 
+class CyclicSubGroup : virtual public SubGroup 
 {
 public:
 	const ContainerGroup *Group; //поле

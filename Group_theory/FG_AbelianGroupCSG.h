@@ -3,7 +3,7 @@
 #include "CyclicSubGroup.h"
 #include "FG_AbelianGroup.h"
 
-class FG_AbelianGroupCSG  : public CyclicSubGroup
+class FG_AbelianGroupCSG  : virtual public CyclicSubGroup
 {
 
 public:
