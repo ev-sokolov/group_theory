@@ -141,7 +141,10 @@ int main()
 
 		GroupElement a3a4_fmge = a3_fmge * a4_fmge;
 
-		cout << fm.WordIsEqualTo1(a3a4_fmge) << endl;
+		cout <<"fm.WordIsEqualTo1(a3a4_fmge): "<<fm.WordIsEqualTo1(a3a4_fmge) << endl;
+		
+		
+		cout <<"fm.WordsAreConjugate(a3_fmge, a4_fmge): "<< fm.WordsAreConjugate(a3_fmge, a4_fmge) << endl;
 
 	}
 
