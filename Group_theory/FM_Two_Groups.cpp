@@ -157,7 +157,6 @@ list<GroupElement> FM_Two_Groups::ListOfSyllablesOf(const GroupElement& input_va
 
 list<GroupElement> FM_Two_Groups::ReducedFormOf(const GroupElement& _elem) const { //алгоритм XI
 	list<GroupElement> elem_syllables = ListOfSyllablesOf(_elem);// создаем список
-	list<GroupElement>::iterator itern;
 	bool flag; //флажок
 	do {
 		if (elem_syllables.size() == 1) return elem_syllables; //если размер=1 возвращаем список
@@ -169,14 +168,22 @@ list<GroupElement> FM_Two_Groups::ReducedFormOf(const GroupElement& _elem) const
 				if (phi->GetIzomorphizmDomain()->IsContain(syllable_elem)) { //если указатель на группу phi от поля domain, то
 					flag = true; // флаг в истину
 					*iter = StandartImageOf(phi->ImageOf(syllable_elem)); //преобразовываем итератор
-					itern = iter; itern++; // создаем новый итератор равный текущему итератору
+					list<GroupElement>::iterator itern = iter; itern++; // создаем новый итератор равный текущему итератору
 					if (itern != elem_syllables.end()) { //если новый итератор указывает на конец списка, то
 						*iter = *iter * *itern; //старый итератор умножаем на новый
 						elem_syllables.erase(itern); //стираем новый итератор в списке 
 						itern = iter; //присваиваем новому итератору значение старого
-					} else 
+					} 
 					if (iter != elem_syllables.begin()) { // если итератор указывает на начало списка, то
 						iter--; //шаг назад
+
+						//предположительно берется iter == elem_syllables.begin()+1, далее мы берём iter--
+						//через дебаг поступает странное значение itern
+
+						/*list<GroupElement>::iterator *test = *itern;
+						cout << "itern= " <<test << endl;
+						*/
+
 						*iter = *iter * *itern; //старый итератор умножаем на новый
 						elem_syllables.erase(itern); //стираем новый итератор в списке 
 						itern = iter; //присваиваем новому итератору значение старого
