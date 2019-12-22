@@ -79,7 +79,7 @@ int main()
 		cout << "gr.WordIsEqualTo1(a2_ge): " << gr.WordIsEqualTo1(a2_ge) << endl;
 		cout << "gr.WordIsEqualTo1(a3_ge): " << gr.WordIsEqualTo1(a3_ge) << endl;
 
-	}
+	} 
 
 	// ====================================================================
 

@@ -172,20 +172,11 @@ list<GroupElement> FM_Two_Groups::ReducedFormOf(const GroupElement& _elem) const
 					if (itern != elem_syllables.end()) { //если новый итератор указывает на конец списка, то
 						*iter = *iter * *itern; //старый итератор умножаем на новый
 						elem_syllables.erase(itern); //стираем новый итератор в списке 
-//						itern = iter; //присваиваем новому итератору значение старого
 					} 
 					if (iter != elem_syllables.begin()) { // если итератор указывает на начало списка, то
 						itern = iter; iter--; //шаг назад
-
-						//предположительно берется iter == elem_syllables.begin()+1, далее мы берём iter--
-						//через дебаг поступает странное значение itern
-
-						//cout << "itern= " << /*itern->size() <<*/ endl;
-						
-
 						*iter = *iter * *itern; //старый итератор умножаем на новый
 						elem_syllables.erase(itern); //стираем новый итератор в списке 
-//						itern = iter; //присваиваем новому итератору значение старого
 					}
 				}
 			}
@@ -197,13 +188,11 @@ list<GroupElement> FM_Two_Groups::ReducedFormOf(const GroupElement& _elem) const
 					if (itern != elem_syllables.end()) {
 						*iter = *iter * *itern;
 						elem_syllables.erase(itern);
-//						itern = iter;
 					}
 					if (iter != elem_syllables.begin()) {
 						itern = iter; iter--;
 						*iter = *iter * *itern;
 						elem_syllables.erase(itern);
-//						itern = iter;
 					}
 				}
 			}
